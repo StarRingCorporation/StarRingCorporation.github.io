@@ -6,9 +6,9 @@ subtitle: 'We make history'
 description: >-
   We make history.
 image: >-
-  ./img/R-C.jpg
+  https://i-blog.csdnimg.cn/direct/7cf757a8fe234de897ec6f97cedb9765.jpeg
 optimized_image: >-
-  ./img/R-C.jpg
+  https://i-blog.csdnimg.cn/direct/7cf757a8fe234de897ec6f97cedb9765.jpeg
 category: blog
 tags:
   - welcome
