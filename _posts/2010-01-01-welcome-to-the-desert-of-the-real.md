@@ -6,9 +6,9 @@ subtitle: 'We make history'
 description: >-
   We make history.
 image: >-
-  https://c-ssl.duitang.com/uploads/item/201205/03/20120503211144_FiNYV.jpeg
+  ./img/R-C.jpg
 optimized_image: >-
-  https://c-ssl.duitang.com/uploads/item/201205/03/20120503211144_FiNYV.jpeg
+  ./img/R-C.jpg
 category: blog
 tags:
   - welcome
@@ -16,13 +16,12 @@ tags:
 author: Albert
 paginate: true
 ---
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+我们是星环集团，欢迎大家与我们合作，我们定不负期待，创造辉煌
+> 我们是星环集团，欢迎大家与我们合作，我们定不负期待，创造辉煌
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+第一段为测试语句 *强调* 文本。
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-
-## Inline HTML elements
+## 第一段
 
 HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
