@@ -1,5 +1,5 @@
 ---
-date: 2024-12-09 19:46:05
+date: 2024-12-05 19:46:05
 layout: post
 title: Welcome to Star Ring Corporation
 subtitle: 'We make history'
