@@ -6,9 +6,9 @@ subtitle: 'We make history'
 description: >-
   We make history.
 image: >-
-  https://i-blog.csdnimg.cn/direct/7cf757a8fe234de897ec6f97cedb9765.jpeg
+  https://github.com/StarRingCorporation/StarRingCorporation.github.io/blob/master/_posts/img/R-C.jpg
 optimized_image: >-
-  https://i-blog.csdnimg.cn/direct/7cf757a8fe234de897ec6f97cedb9765.jpeg
+  https://github.com/StarRingCorporation/StarRingCorporation.github.io/blob/master/_posts/img/R-C.jpg
 category: blog
 tags:
   - welcome
