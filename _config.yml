@@ -1,14 +1,14 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: SRC
+title: SRC| Star Ring Corporation Official
+description: Star Ring Corporation Official
+  Create everything you want
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - technology
+  - company
+  - Star Ring
+  - website
+  - development
 show_hero: true
 menu:
   - title: Home
@@ -29,12 +29,12 @@ formspree_form_id: formspree_form_id
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: StarRingCorporation
+facebook_username: StarRingCorporation
+twitter_username: StarRingCorporation
+instagram_username: StarRingCorporation
+linkedin_username: StarRingCorporation
+medium_username: StarRingCorporation
 
 
 # Posts Settings
