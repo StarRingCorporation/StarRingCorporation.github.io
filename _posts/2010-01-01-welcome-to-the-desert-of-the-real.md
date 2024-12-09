@@ -6,9 +6,9 @@ subtitle: 'We make history'
 description: >-
   We make history.
 image: >-
-  https://img95.699pic.com/photo/50631/7533.jpg_wh860.jpg
+  https://n.sinaimg.cn/sinacn10/200/w1600h1000/20180618/bb02-heauxvy8829505.jpg
 optimized_image: >-
-  https://img95.699pic.com/photo/50631/7533.jpg_wh860.jpg
+  https://n.sinaimg.cn/sinacn10/200/w1600h1000/20180618/bb02-heauxvy8829505.jpg
 category: blog
 tags:
   - welcome
