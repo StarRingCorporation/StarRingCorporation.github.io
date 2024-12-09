@@ -1,20 +1,19 @@
 ---
-date: 2019-05-16 23:48:05
+date: 2024-12-09 19:46:05
 layout: post
-title: Welcome to the desert of the real
-subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+title: Welcome to Star Ring Corporation
+subtitle: 'We make history'
 description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
+  We make history.
 image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
+  https://c-ssl.duitang.com/uploads/item/201205/03/20120503211144_FiNYV.jpeg
 optimized_image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
+  https://c-ssl.duitang.com/uploads/item/201205/03/20120503211144_FiNYV.jpeg
 category: blog
 tags:
   - welcome
   - blog
-author: mranderson
+author: Albert
 paginate: true
 ---
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
@@ -54,7 +53,7 @@ Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridic
 
 ```js
 // Example can be run directly in your JavaScript console
-
+// https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
 // Create a function that takes two arguments and returns the sum of those arguments
 var adder = new Function("a", "b", "return a + b");
 
