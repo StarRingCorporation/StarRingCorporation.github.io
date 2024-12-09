@@ -19,73 +19,31 @@ paginate: true
 我们是星环集团，欢迎大家与我们合作，我们定不负期待，创造辉煌
 > 我们是星环集团，欢迎大家与我们合作，我们定不负期待，创造辉煌
 
-第一段为测试语句 *强调* 文本。
 
-## 第一段
+# 星环集团介绍
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+## 公司背景
 
-* **To bold text**, use `<strong>`.
-* *To italicize text*, use `<em>`.
-* Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-* Citations, like <cite>&mdash; Thomas A. Anderson</cite>, should use `<cite>`.
-* <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-* Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+星环集团是一家以科技创新为核心的企业，致力于推动未来的发展。我们专注于研发新颖且巧妙的产品，力求在各个领域中引领潮流。我们的使命是通过科技改善人们的生活，并为客户创造更大的价值。
 
-Most of these elements are styled by browsers with few modifications on our part.
+## 发展愿景
 
-# Heading 1
+星环集团着眼于未来，始终追求卓越。我们相信，科技是推动社会进步的动力，未来将被创新所定义。我们不断探索新技术，并将其应用于实际场景，以满足不断变化的市场需求。
 
-## Heading 2
+## 主要产品
 
-### Heading 3
+星环集团当前有四个计划：
 
-#### Heading 4
+- **星云计划**：引领时代！
+- **星耀计划**：服务社会！
+- **星辰计划**：造福民生！
+- **星尘计划**：增强国防！
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+## 核心价值观
 
---page-break--
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-```js
-// Example can be run directly in your JavaScript console
-// https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://img95.699pic.com/photo/50631/7533.jpg_wh860.jpg "Large example image") ![placeholder](https://placehold.it/400x200 "Medium example image") ![placeholder](https://placehold.it/200x200 "Small example image")
+- **创新**：我们鼓励团队不断挑战自我
+- **合作**：与各界伙伴紧密合作，实现共赢。
+- **责任**：关注社会发展，推动可持续发展目标的实现。
 
 ## Tables
 
