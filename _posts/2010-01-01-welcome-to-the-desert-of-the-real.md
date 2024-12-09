@@ -6,9 +6,9 @@ subtitle: 'We make history'
 description: >-
   We make history.
 image: >-
-  https://github.com/StarRingCorporation/StarRingCorporation.github.io/blob/master/_posts/img/R-C.jpg
+  https://img95.699pic.com/photo/50631/7533.jpg_wh860.jpg
 optimized_image: >-
-  https://github.com/StarRingCorporation/StarRingCorporation.github.io/blob/master/_posts/img/R-C.jpg
+  https://img95.699pic.com/photo/50631/7533.jpg_wh860.jpg
 category: blog
 tags:
   - welcome
@@ -85,7 +85,7 @@ Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo r
 
 Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
 
-![placeholder](https://i-blog.csdnimg.cn/direct/7cf757a8fe234de897ec6f97cedb9765.jpeg "Large example image") ![placeholder](https://placehold.it/400x200 "Medium example image") ![placeholder](https://placehold.it/200x200 "Small example image")
+![placeholder](https://img95.699pic.com/photo/50631/7533.jpg_wh860.jpg "Large example image") ![placeholder](https://placehold.it/400x200 "Medium example image") ![placeholder](https://placehold.it/200x200 "Small example image")
 
 ## Tables
 
