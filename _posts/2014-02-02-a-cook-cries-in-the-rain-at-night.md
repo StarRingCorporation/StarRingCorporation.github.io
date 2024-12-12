@@ -1,17 +1,17 @@
 ---
 date: 2017-06-04 12:00:00
 layout: post
-title: A cook cries in the rain at night
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+title: 宣传文章
+subtitle: 这里是宣传的
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559824575/theme14_gi2ypv.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559824575/theme14_gi2ypv.jpg
 category: diet
 tags:
   - cook
-  - cucine
+  - cute
   - story
-author: mranderson
+author: Albert
 ---
 
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
