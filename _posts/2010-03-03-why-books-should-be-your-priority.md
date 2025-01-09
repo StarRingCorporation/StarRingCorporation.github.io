@@ -4,8 +4,8 @@ layout: post
 title: 星环集团可变后掠翼无人机介绍
 subtitle: 星环集团可变后掠翼无人机介绍
 description: 星环集团可变后掠翼无人机介绍
-image: https://github.com/StarRingCorporation/StarRingCorporation.github.io/blob/master/_posts/img/fpv%E6%B8%B2%E6%9F%93.JPG
-optimized_image: https://github.com/StarRingCorporation/StarRingCorporation.github.io/blob/master/_posts/img/fpv%E6%B8%B2%E6%9F%93.JPG
+image: https://cdn.akamai.steamstatic.com/steam/apps/2707940/ss_03776711d14b6ddcc8700bf24008d4588c4233f0.1920x1080.jpg?t=1707315013
+optimized_image: https://cdn.akamai.steamstatic.com/steam/apps/2707940/ss_03776711d14b6ddcc8700bf24008d4588c4233f0.1920x1080.jpg?t=1707315013
 category: life
 tags:
   - 星尘计划
