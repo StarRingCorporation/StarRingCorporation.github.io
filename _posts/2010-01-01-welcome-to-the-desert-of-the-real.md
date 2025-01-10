@@ -39,20 +39,27 @@ paginate: true
 `20 20 25 28 碳排五五`
 与其他制造公司保持`一致`，但是我们的附赠服务无疑会为您的展销带来极大的优势！
 
-### 方案2:科学算法
+## 方案2:科学算法
 我方算法代码如下：
 
 ```python
 # CodeIgniter
+# This content is released under the MIT License (MIT)
 # Copyright (c) 2025 - 2026, Tianjin No.1 High School
 # Copyright (c) 2025 - 2026, StarRingCorporation Team (https://starringcorporation.github.io/)
+#Permission is hereby granted, free of charge, to any person obtaining a copy
+#of this software and associated documentation files (the "Software"), to deal
+#in the Software without restriction, including without limitation the rights
+#to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+#copies of the Software, and to permit persons to whom the Software is
+#furnished to do so, subject to the following conditions:
 
-# It is strictly prohibited for other commercial competition companies
-# to use our algorithm code, and copying our code is not allowed.
-# Otherwise, we will be sued after participating, and we reserve all rights to the code.
+#It is strictly prohibited for other commercial competition companies to use our algorithm code, 
+#and copying our code is not allowed. Otherwise, 
+# we will be sued after participating, and we reserve all rights to the code.
 
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
+#The above copyright notice and this permission notice shall be included in
+#all copies or substantial portions of the Software.
 
 #THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 #IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -66,10 +73,10 @@ paginate: true
 #@author	EllisLab Dev Team
 #@copyright	Copyright (c) 2025 - 2026, Tianjin No.1 High School
 #@copyright	Copyright (c) 2025 - 2026, StarRingCorporation Team (https://starringcorporation.github.io/)
-#@license	SRC.license
+#@license	http://opensource.org/licenses/MIT	MIT License
 #@link	https://starringcorporation.github.io/
 #@since	Version 1.0.0
-
+#@filesource
 
 import sys
 # 常量部分
@@ -109,12 +116,12 @@ if R_real <= 0.24:
     # 一到四财年最高抽成为0.20 0.20 0.23 0.27
     # 我方算法的优点：
     # 方便我方了解我们能够赚多少，方便您方了解我们有多赚钱，以及便于您方了解可以跟我方回旋的利润空间
-    if R < 0.23:#0.20为最低高利润系数，目的是让我们的利润足够多，不会倒闭
-        R= 0.23
+    if R < 0.24:#0.24为最低高利润系数，目的是让我们的利润足够多，不会倒闭
+        R= 0.24
     #如果您方利润率过低，也就是根据算法，加上额外抽成比例后高于27%的比率，我们一律按照27%进行抽成，当然如果我们有更多更深入的合作的话，可以帮您把比例降到28%
     elif R > 0.27:
         R = 0.27
-    #如果您方利润率一般，根据算法，加上额外抽成比例后处于20%~27%之间，我们一律按照22%进行抽成
+    #如果您方利润率一般，根据算法，加上额外抽成比例后处于20%~25%之间，我们一律按照25%进行抽成
     else:
         R = 0.25
     # 计算实际抽成比例
@@ -127,6 +134,8 @@ else:
     R_total = R*(S-s-X)/S
     print(f"实际抽成比例为：总销售额的{R_total:.2%}")
     print(f"实际抽成比例为：净利润的{R:.2%}")
+
+
 
 ```
 
@@ -147,6 +156,66 @@ else:
  3. 如果希望能够带数试一下的话可以访问：（对不起，目前发布的程序正在审核中）
  4. 您方可以调整碳排放承担系数，您方承担的越低，我们抽得越低
 
+#### 来几组数据试一下：
+```python
+请输入年度总销售额（黄金）：300000
+请输入原料成本（黄金）：30000
+请输入生产中消耗的黄金量：30000
+生产成本为：45000.0黄金
+成本抽成比例为：总销售额的15.00%
+成本抽成比例为：净利润的18.75%
+最低抽成比例为：总销售额的16.60%
+最低抽成比例为：净利润的20.75%
+实际抽成比例为：总销售额的20.00%
+实际抽成比例为：净利润的25.00%
+```
+
+```python
+请输入年度总销售额（黄金）：300000
+请输入原料成本（黄金）：30000
+请输入生产中消耗的黄金量：10000
+生产成本为：15000.0黄金
+成本抽成比例为：总销售额的5.00%
+成本抽成比例为：净利润的5.77%
+最低抽成比例为：总销售额的6.73%
+最低抽成比例为：净利润的7.77%
+实际抽成比例为：总销售额的20.80%
+实际抽成比例为：净利润的24.00%
+```
+```python
+请输入年度总销售额（黄金）：300000
+请输入原料成本（黄金）：100000
+请输入生产中消耗的黄金量：10000
+生产成本为：15000.0黄金
+成本抽成比例为：总销售额的5.00%
+成本抽成比例为：净利润的7.89%
+最低抽成比例为：总销售额的6.27%
+最低抽成比例为：净利润的9.89%
+实际抽成比例为：总销售额的15.20%
+实际抽成比例为：净利润的24.00%
+```
+```python
+请输入年度总销售额（黄金）：300000
+请输入原料成本（黄金）：10000
+请输入生产中消耗的黄金量：1000
+生产成本为：1500.0黄金
+成本抽成比例为：总销售额的0.50%
+成本抽成比例为：净利润的0.52%
+最低抽成比例为：总销售额的2.43%
+最低抽成比例为：净利润的2.52%
+实际抽成比例为：总销售额的23.12%
+实际抽成比例为：净利润的24.00%
+```
+```python
+请输入年度总销售额（黄金）：687500
+请输入原料成本（黄金）：431250
+请输入生产中消耗的黄金量：98000
+生产成本为：147000.0黄金
+成本抽成比例为：总销售额的21.38%
+成本抽成比例为：净利润的92.89%
+您方利润率过低，这种情况无论在哪一家制造公司都是不被接受的水准
+请更换代数再次尝试
+```
 
 ### 答疑
 
@@ -163,7 +232,7 @@ else:
 **问：最高抽成是多少？**
 
 > 答：如果您方利润率过低，也就是根据算法，加上额外抽成比例后高于28%的比率，我们一律按照`28%`进行抽成，当然如果我们有更多更深入的合作的话，可以帮您把比例降到`27%`
-> 最坏的情况，出现在产品品质极差的情况下，这个时候我们的抽成就是回本抽成了，不添加额外的抽成。但是这个回本抽成我们不知道其他公司是怎么定的，反正我们要的是完全回本。
+> 最坏的情况，出现在产品品质极差的情况下，这个时候我们的抽成就是回本抽成了。这个回本抽成我们不知道其他公司是怎么定的，反正我们要的是完全回本。
 
 **问：碳排和消耗黄金？**
 
