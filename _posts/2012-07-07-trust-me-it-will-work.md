@@ -12,44 +12,38 @@ tags:
   - technology
 author: Albert
 ---
-欢迎您前来咨询代加工事项，我们的抽水率极低，有极大的价格优势。当前为弹性定价期间，预计在预财年（系统测试）期间给您明确的报价。我们支持多种定价方式，可以商讨不同的生产成本分配方案。
+欢迎您前来咨询代加工事项，我们的抽水率极低，有极大的价格优势。我们支持多种定价方式，可以商讨不同的生产成本分配方案。
+
 我们当前附赠的服务有：
 
-- 产品3D建模服务
-- 产品原料检查（帮您检查是否有漏掉的原料，让您方在答辩时更加从容）
-- 产品结构设计检查（帮您检查产品的结构是否合理，设计是否可行）
+- `产品3D建模服务`
+- `产品原料检查（帮您检查是否有漏掉的原料，让您方在答辩时更加从容）`
+- `产品结构设计检查（帮您检查产品的结构是否合理，设计是否可行）`
 
 
 我们希望能够找到优秀的原料公司、传媒公司与经销公司，在合理的报价范围内，我相信我们可以达成愉快的协定。
-我方目前对于展销位的需求量较大，希望各经销公司能火速与我们取得联系。
+我方目前对于展销位的需求量较大，希望各经销公司能火速与我们取得联系！
 
 # 抽成方案：
 ## 方案1：固定比率
 在此方案下，我方比率为：
-20 20 25 28 碳排五五
-与其他制造公司保持一致
+`20 20 25 28 碳排五五`
+与其他制造公司保持`一致`，但是我们的附赠服务无疑会为您的展销带来极大的优势！
 
 ## 方案2:科学算法
 我方算法代码如下：
 
 ```python
 # CodeIgniter
-# This content is released under the MIT License (MIT)
 # Copyright (c) 2025 - 2026, Tianjin No.1 High School
 # Copyright (c) 2025 - 2026, StarRingCorporation Team (https://starringcorporation.github.io/)
-#Permission is hereby granted, free of charge, to any person obtaining a copy
-#of this software and associated documentation files (the "Software"), to deal
-#in the Software without restriction, including without limitation the rights
-#to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-#copies of the Software, and to permit persons to whom the Software is
-#furnished to do so, subject to the following conditions:
 
-#It is strictly prohibited for other commercial competition companies to use our algorithm code, 
-#and copying our code is not allowed. Otherwise, 
-# we will be sued after participating, and we reserve all rights to the code.
+# It is strictly prohibited for other commercial competition companies
+# to use our algorithm code, and copying our code is not allowed.
+# Otherwise, we will be sued after participating, and we reserve all rights to the code.
 
-#The above copyright notice and this permission notice shall be included in
-#all copies or substantial portions of the Software.
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
 
 #THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 #IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -63,10 +57,10 @@ author: Albert
 #@author	EllisLab Dev Team
 #@copyright	Copyright (c) 2025 - 2026, Tianjin No.1 High School
 #@copyright	Copyright (c) 2025 - 2026, StarRingCorporation Team (https://starringcorporation.github.io/)
-#@license	http://opensource.org/licenses/MIT	MIT License
+#@license	SRC.license
 #@link	https://starringcorporation.github.io/
 #@since	Version 1.0.0
-#@filesource
+
 
 import sys
 # 常量部分
@@ -102,18 +96,18 @@ if R_real <= 0.24:
     print(f"最低抽成比例为：总销售额的{R_min:.2%}")
     print(f"最低抽成比例为：净利润的{R_real:.2%}")
     R = R_real + additional_percent
-    # 以下的0.21，,0.24等数字是根据其他公司的报价进行的计算
-    # 一到四财年为0.15 0.17 0.20 0.20
+    # 以下的数字是根据其他公司的报价进行的计算
+    # 一到四财年最高抽成为0.20 0.20 0.23 0.27
     # 我方算法的优点：
     # 方便我方了解我们能够赚多少，方便您方了解我们有多赚钱，以及便于您方了解可以跟我方回旋的利润空间
-    if R < 0.20:#0.20为最低高利润系数，目的是让我们的利润足够多，不会倒闭
-        R= 0.20
-    #如果您方利润率过低，也就是根据算法，加上额外抽成比例后高于24%的比率，我们一律按照24%进行抽成，当然如果我们有更多更深入的合作的话，可以帮您把比例降到28%
-    elif R > 0.24:
-        R = 0.24
-    #如果您方利润率一般，根据算法，加上额外抽成比例后处于20%~24%之间，我们一律按照22%进行抽成
+    if R < 0.23:#0.20为最低高利润系数，目的是让我们的利润足够多，不会倒闭
+        R= 0.23
+    #如果您方利润率过低，也就是根据算法，加上额外抽成比例后高于27%的比率，我们一律按照27%进行抽成，当然如果我们有更多更深入的合作的话，可以帮您把比例降到28%
+    elif R > 0.27:
+        R = 0.27
+    #如果您方利润率一般，根据算法，加上额外抽成比例后处于20%~27%之间，我们一律按照22%进行抽成
     else:
-        R = 0.22
+        R = 0.25
     # 计算实际抽成比例
     R_total = R*(S-s-X)/S
     print(f"实际抽成比例为：总销售额的{R_total:.2%}")
@@ -127,7 +121,48 @@ else:
 
 ```
 
+***算法代码一切版权归我方所有，严禁复制/在自己制造公司内部使用，否则我方将追究您方责任！***
 
+算法计价的取值区间一般为普通计价方案的-3%到+0.5%之间，多数情况下低于其他公司报价。
+
+`我方算法的好处：`
+
+- 您的产品利润率越高，我们的抽成越低，你们赚的就更多
+- 方便我方了解我们能够赚多少
+- 方便您方了解其他制造公司还有我们自己有多 ~~“坑人”~~ （bushi）
+- 便于您方了解可以跟我方回旋的利润空间
+
+同时，您需要注意：
+ 1. 如果对于系数有疑问的话可以提出质疑
+ 2. 如果双方合作密切的话最后的抽成可以接近我们的最低抽成比例
+ 3. 如果希望能够带数试一下的话可以访问：
+ 4. 您方可以调整碳排放承担系数，您方承担的越低，我们抽得越低
+
+
+### 答疑
+
+**问：这个算法的适用条件是什么？**
+
+> 答：所有的，无论是竞标还是普通。
+
+
+**问：这个算法是第几财年的？**
+
+> 答：目前的数字是`第四财年`的，如果需要其他财年的请联系我们
+> 或者等到我们出第二版
+
+**问：最高抽成是多少？**
+
+> 答：如果您方利润率过低，也就是根据算法，加上额外抽成比例后高于28%的比率，我们一律按照`28%`进行抽成，当然如果我们有更多更深入的合作的话，可以帮您把比例降到`27%`
+> 最坏的情况，出现在产品品质极差的情况下，这个时候我们的抽成就是回本抽成了，不添加额外的抽成。但是这个回本抽成我们不知道其他公司是怎么定的，反正我们要的是完全回本。
+
+**问：碳排和消耗黄金？**
+
+> 答：`碳排五五，黄金我们全出（已包含在算法中）`，这两部分就是我们算法给出的成本抽成。您需要注意，我们的碳排放承担可以进行协商，这样我们的抽水将会更低！
+
+**问：您方的升级方案？**
+
+> 答：我们有这个在第三财年升到四级工厂的意愿，但是未来难测，能不能升级，也需要靠你们的全产业链支撑
 
 
 
