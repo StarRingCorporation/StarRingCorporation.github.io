@@ -23,10 +23,109 @@ author: Albert
 我们希望能够找到优秀的原料公司、传媒公司与经销公司，在合理的报价范围内，我相信我们可以达成愉快的协定。
 我方目前对于展销位的需求量较大，希望各经销公司能火速与我们取得联系。
 
+# 抽成方案：
+## 方案1：固定比率
+在此方案下，我方比率为：
+20 20 25 28 碳排五五
+与其他制造公司保持一致
+
+## 方案2:科学算法
+我方算法代码如下：
+
+```python
+# CodeIgniter
+# This content is released under the MIT License (MIT)
+# Copyright (c) 2025 - 2026, Tianjin No.1 High School
+# Copyright (c) 2025 - 2026, StarRingCorporation Team (https://starringcorporation.github.io/)
+#Permission is hereby granted, free of charge, to any person obtaining a copy
+#of this software and associated documentation files (the "Software"), to deal
+#in the Software without restriction, including without limitation the rights
+#to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+#copies of the Software, and to permit persons to whom the Software is
+#furnished to do so, subject to the following conditions:
+
+#It is strictly prohibited for other commercial competition companies to use our algorithm code, 
+#and copying our code is not allowed. Otherwise, 
+# we will be sued after participating, and we reserve all rights to the code.
+
+#The above copyright notice and this permission notice shall be included in
+#all copies or substantial portions of the Software.
+
+#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+#IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+#FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+#AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+#LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+#THE SOFTWARE.
+
+#@package	CodeIgniter
+#@author	EllisLab Dev Team
+#@copyright	Copyright (c) 2025 - 2026, Tianjin No.1 High School
+#@copyright	Copyright (c) 2025 - 2026, StarRingCorporation Team (https://starringcorporation.github.io/)
+#@license	http://opensource.org/licenses/MIT	MIT License
+#@link	https://starringcorporation.github.io/
+#@since	Version 1.0.0
+#@filesource
+
+import sys
+# 常量部分
+P = 0.02  # 目标起步净挣系数（净利润抽成率）
+# 从用户输入获取数据
+S = float(input("请输入年度总销售额（黄金）："))
+s = float(input("请输入原料成本（黄金）："))
+X = float(input("请输入生产中消耗的黄金量："))
+
+# 基础计算部分
+# 计算生产成本C（黄金+碳排），碳排五五分
+C = X * 1.5
+print(f"生产成本为：{C}黄金")
 
 
+# 算法部分
+# 计算回本抽成比例R_cost和R_realcost，也就是低于这个数字我们会亏本
+R_cost = C / S
+print(f"成本抽成比例为：总销售额的{R_cost:.2%}")
+R_realcost = C /(S-s-X)
+print(f"成本抽成比例为：净利润的{R_realcost:.2%}")
+if R_realcost > 0.24:
+    print("您方利润率过低，这种情况无论在哪一家制造公司都是不被接受的水准")
+    print("请更换代数再次尝试")
+    sys.exit()#终止程序
+# 根据财年确定额外增加的百分点
+#一到四财年预估为0.02 0.03 0.04 0.05
+additional_percent = 0.05
+# 计算最低目标抽成比例R_real
+R_real = (C + (S-s-X)*P ) / (S-s-X)
+if R_real <= 0.24:
+    R_min = (C + (S-s-X)*P ) / S
+    print(f"最低抽成比例为：总销售额的{R_min:.2%}")
+    print(f"最低抽成比例为：净利润的{R_real:.2%}")
+    R = R_real + additional_percent
+    # 以下的0.21，,0.24等数字是根据其他公司的报价进行的计算
+    # 一到四财年为0.15 0.17 0.20 0.20
+    # 我方算法的优点：
+    # 方便我方了解我们能够赚多少，方便您方了解我们有多赚钱，以及便于您方了解可以跟我方回旋的利润空间
+    if R < 0.20:#0.20为最低高利润系数，目的是让我们的利润足够多，不会倒闭
+        R= 0.20
+    #如果您方利润率过低，也就是根据算法，加上额外抽成比例后高于24%的比率，我们一律按照24%进行抽成，当然如果我们有更多更深入的合作的话，可以帮您把比例降到28%
+    elif R > 0.24:
+        R = 0.24
+    #如果您方利润率一般，根据算法，加上额外抽成比例后处于20%~24%之间，我们一律按照22%进行抽成
+    else:
+        R = 0.22
+    # 计算实际抽成比例
+    R_total = R*(S-s-X)/S
+    print(f"实际抽成比例为：总销售额的{R_total:.2%}")
+    print(f"实际抽成比例为：净利润的{R:.2%}")
+else:
+    print("您方利润率似乎太低了，但是我们也不是不能做")
+    R = 0.24
+    R_total = R*(S-s-X)/S
+    print(f"实际抽成比例为：总销售额的{R_total:.2%}")
+    print(f"实际抽成比例为：净利润的{R:.2%}")
 
-
+```
 
 
 
