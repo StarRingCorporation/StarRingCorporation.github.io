@@ -35,15 +35,22 @@ author: Albert
 
 ```python
 # CodeIgniter
+# This content is released under the MIT License (MIT)
 # Copyright (c) 2025 - 2026, Tianjin No.1 High School
 # Copyright (c) 2025 - 2026, StarRingCorporation Team (https://starringcorporation.github.io/)
+#Permission is hereby granted, free of charge, to any person obtaining a copy
+#of this software and associated documentation files (the "Software"), to deal
+#in the Software without restriction, including without limitation the rights
+#to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+#copies of the Software, and to permit persons to whom the Software is
+#furnished to do so, subject to the following conditions:
 
-# It is strictly prohibited for other commercial competition companies
-# to use our algorithm code, and copying our code is not allowed.
-# Otherwise, we will be sued after participating, and we reserve all rights to the code.
+#It is strictly prohibited for other commercial competition companies to use our algorithm code, 
+#and copying our code is not allowed. Otherwise, 
+# we will be sued after participating, and we reserve all rights to the code.
 
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
+#The above copyright notice and this permission notice shall be included in
+#all copies or substantial portions of the Software.
 
 #THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 #IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -57,10 +64,10 @@ author: Albert
 #@author	EllisLab Dev Team
 #@copyright	Copyright (c) 2025 - 2026, Tianjin No.1 High School
 #@copyright	Copyright (c) 2025 - 2026, StarRingCorporation Team (https://starringcorporation.github.io/)
-#@license	SRC.license
+#@license	http://opensource.org/licenses/MIT	MIT License
 #@link	https://starringcorporation.github.io/
 #@since	Version 1.0.0
-
+#@filesource
 
 import sys
 # 常量部分
@@ -100,12 +107,12 @@ if R_real <= 0.24:
     # 一到四财年最高抽成为0.20 0.20 0.23 0.27
     # 我方算法的优点：
     # 方便我方了解我们能够赚多少，方便您方了解我们有多赚钱，以及便于您方了解可以跟我方回旋的利润空间
-    if R < 0.23:#0.20为最低高利润系数，目的是让我们的利润足够多，不会倒闭
-        R= 0.23
+    if R < 0.24:#0.24为最低高利润系数，目的是让我们的利润足够多，不会倒闭
+        R= 0.24
     #如果您方利润率过低，也就是根据算法，加上额外抽成比例后高于27%的比率，我们一律按照27%进行抽成，当然如果我们有更多更深入的合作的话，可以帮您把比例降到28%
     elif R > 0.27:
         R = 0.27
-    #如果您方利润率一般，根据算法，加上额外抽成比例后处于20%~27%之间，我们一律按照22%进行抽成
+    #如果您方利润率一般，根据算法，加上额外抽成比例后处于20%~25%之间，我们一律按照25%进行抽成
     else:
         R = 0.25
     # 计算实际抽成比例
